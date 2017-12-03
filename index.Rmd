@@ -1,0 +1,50 @@
+---
+title       : Shiny App Pitch
+subtitle    : 3/12/2017
+author      : Yiu Chung Wong
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+github:
+        user: emailyc
+        repo: Developing-Data-Products
+---
+
+## Background
+
+This presentation is a reproducible pitch presentation for the Shiny app project for the Developing Data Product course. 
+This presentations is created using Slidify.
+
+
+--- .class #id 
+
+## Purpose
+
+The app displays a distribution plot of different statistical distributions. The user may choose from a list of distribution and the specify the sample size. The plot will then update itself according to the parameters of the user. 
+The plot is best used by those who wish to have a better understanding of statistical distributions and their relationships with sample sizes.
+
+--- .class #id 
+
+## How to use the app
+
+On the left, there are two toggles:
+
+1. A drop down list
+2. A slide bar
+
+The user may choose a list of statistical distribution on the drop down list;  
+and the sample size using the slide bar.
+
+Finally, click the **submit** button to refresh the plot
+
+--- .class #id 
+
+## Resources
+
+The app is hosted [here](https://danty15880.shinyapps.io/myshinyapp/)
+
+The codes are [here](https://github.com/emailyc/Developing-Data-Products)
